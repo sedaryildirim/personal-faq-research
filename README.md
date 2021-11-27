@@ -94,7 +94,7 @@ a::before {
 ```
 
 ## Difference between display: flex and display: inline-flex (css)
-
+- Source: https://www.youtube.com/watch?v=Qf-wVa9y9V4
 - Source: https://www.youtube.com/watch?v=9e-lWQdO-DA
 
 *Flex: Flex displays an element as a flexible structure. To use flex display, a flex level container has to be created. Flex level container is nothing, but an element with the display property set to flex. The flex container itself is displayed in a new line, just like the block element. The flex container can contain other elements in it and thus, the flex container is the parent element and the elements that are part of it are the child elements. Display flex property helps us to align and distribute space among items in a container, even when their size is unknown and/or dynamic.*
@@ -106,6 +106,7 @@ a::before {
 **display: block elements always stack on top of each other, on a new line and take up 100% of the space available from their parent**
 **display: inline-block live in other elements and do not force new lines**
 
+- Source: https://www.youtube.com/watch?v=Qf-wVa9y9V4
 - Source: https://www.youtube.com/watch?v=x_i2gga-sYg&list=RDCMUCJZv4d5rbIKd4QHMPkcABCw&start_radio=1
 
 *Block: Displays an element as a block element. It starts on a new line and takes up take up as much horizontal space as they can. Block-level elements do not appear in the same line, but breaks the existing line and appear in the next line.*
