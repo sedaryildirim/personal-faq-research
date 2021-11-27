@@ -42,7 +42,7 @@
 *sticky positioning works as position:relative and position:fixed together, eg if you give a element position: sticky, it defaults as relative, but once you start scrolling the page it becomes fixed:position*
 
 ## How do ::before and ::after work? (css)
-*:: are pseudo-element*
+*:: are pseudo-elements*
 - Source: https://www.youtube.com/watch?v=zGiirUiWslI
 - Source: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
 - Source: https://www.youtube.com/watch?v=e1KpKBHJOrA
@@ -56,7 +56,7 @@ p::first-line {
 }
 ```
 
-**content can be blank and does not work on imgs**
+**content can be blank and does not work on images**
 ```html
 content: '';
 ```
@@ -102,6 +102,9 @@ a::before {
 *Inline: Just as the name suggests, inline displays an element in the same line as the rest. Specifying any height and width properties will be of no use, as it follows the height and width of the line, of which it is a part.*
 
 ## Difference between display: block and display: inline-block (css)
+
+**display: block elements always stack on top of each other, on a new line and take up 100% of the space available from their parent**
+**display: inline-block live in other elements and do not force new lines**
 
 - Source: https://www.youtube.com/watch?v=x_i2gga-sYg&list=RDCMUCJZv4d5rbIKd4QHMPkcABCw&start_radio=1
 
